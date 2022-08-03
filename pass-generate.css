@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Lato&family=Poppins&family=Roboto+Serif:opsz@8..144&family=Roboto:wght@400;500&family=Tiro+Gurmukhi&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to right bottom, #FFEA11, #0F3D3E);
+}
+
+.container {
+    background-color: #0F3D3E;
+    padding: 20px;
+    border-radius: 4px;
+    width: 450px;
+    box-shadow: 1px 1px 10px 3px #0c181f;
+}
+
+h1 {
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.form-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    color: aliceblue;
+    border-bottom: 1px solid white;
+}
+
+.form-control label {
+    cursor: pointer;
+}
+
+.p-header {
+    position: relative;
+}
+
+.p-header input {
+    width: 100%;
+    height: 100%;
+    background-color: #A6D1E6;
+    padding: 14px;
+    border-radius: 4px;
+    color: #0F3D3E;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+
+.p-header button, .form-control input[type=number] {
+    padding: 3px 5px;
+    background-color: aliceblue;
+    outline: none;
+    border: none;
+    border-radius: 3px 0 0 0;
+}
+
+.p-header button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    background-color: #0F3D3E;
+    color: #A6D1E6;
+    border: 1px solid #A6D1E6;
+}
+
+#submit {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #A6D1E6;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    color: #0F3D3E;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+#submit:hover {
+    background-color: #FFEA11;
+}
+
+#submit:active {
+    background-color: red;
+}
